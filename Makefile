@@ -53,7 +53,7 @@ zsh := /usr/bin/zsh
 zsh-auto := $(HOME)/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 .PHONY: all
-all: $(oh-my-zsh) $(zsh-auto) $(links) $(cmake) $(solarized) $(gh) $(golang) $(git-creds) $(vim) $(tmux) $(curl) $(docker) $(apt) $(asdf) $(aws) $(awsume) $(gnome-tweaks) $(copyq) gnome-desktop $(python) $(nodejs) $(kubectl) $(kustomize) $(skaffold)
+all: $(oh-my-zsh) $(zsh-auto) $(links) $(cmake) $(solarized) $(gh) $(git-creds) $(vim) $(tmux) $(curl) $(apt) $(asdf) $(gnome-tweaks) $(copyq) gnome-desktop
 
 .PHONY: run-once
 run-once: apt-utils chrome zoom gnome-extensions

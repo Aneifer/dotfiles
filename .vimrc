@@ -6,8 +6,7 @@ set nocompatible              " be iMproved, required
 
 "" nastily install vim-plug
 if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
@@ -120,7 +119,7 @@ call plug#end()
 " Regular config resumes here
 
 " Colorscheme
-" let g:solarized_termcolors=256 " mediocre colors - use if termcolors are terrible
+let g:solarized_termcolors=256 " mediocre colors - use if termcolors are terrible
 if (has("termguicolors"))
   " term pallete must be solarized for this to look ok
   " set termguicolors "i prefer the plugin's solarized palette over gnome's
