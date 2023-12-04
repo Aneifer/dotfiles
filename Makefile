@@ -50,10 +50,10 @@ zsh := /usr/bin/zsh
 zsh-auto := $(HOME)/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 .PHONY: all
-all: $(oh-my-zsh) $(zsh-auto) $(links) $(cmake) $(solarized) $(gh) $(golang) $(git-creds) $(vim) $(tmux) $(curl) $(docker) $(apt) $(asdf) $(aws) $(gnome-tweaks) $(copyq) gnome-desktop capslock $(python) $(nodejs) $(kubectl) $(kustomize) $(skaffold)
+all: $(oh-my-zsh) $(zsh-auto) $(links) $(cmake) $(solarized) $(gh) $(git-creds) $(vim) $(tmux) $(curl) $(apt) $(asdf) $(gnome-tweaks) $(copyq) gnome-desktop 
 
 .PHONY: run-once
-run-once: apt-utils gcloud chrome zoom kustomize sops gnome-extensions
+run-once: apt-utils zoom gnome-extensions
 
 ## Not idempotent targets
 .PHONY: apt-utils
