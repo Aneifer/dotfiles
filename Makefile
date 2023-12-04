@@ -5,7 +5,6 @@ SHELL = /bin/bash
 
 dotfiles = .ackrc \
            .bash_profile \
-           .config/autostart/inputplug.desktop \
            .local/bin/on-new-kbd.sh \
            .vim/scripts/partial_accept.vim \
            .gitconfig \
