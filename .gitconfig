@@ -1,13 +1,12 @@
 # This is Git's per-user configuration file.
 [user]
-  name = afirth
-  email = afirth@users.noreply.github.com
-  #signingkey = 613EEDA
+  name = Aneifer
+  email = 132136730+Aneifer@users.noreply.github.com
 [branch "master"]
   rebase = true
 [core]
   editor = vim
-  excludesfile = /home/afirth/.gitignore
+  excludesfile = /home/an/.gitignore
 [credential]
   # helper = osxkeychain
    helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
