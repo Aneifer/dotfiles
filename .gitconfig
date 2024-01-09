@@ -5,7 +5,7 @@
 [branch "master"]
   rebase = true
 [core]
-  editor = vim
+  editor = gedit
   excludesfile = /home/an/.gitignore
 [credential]
   # helper = osxkeychain
