@@ -9,7 +9,7 @@ Modified from geerlinguy. This stuff is just here for me to set up my boxes. If 
 sudo apt-get update
 sudo apt-get install -y git make
 mkdir ~/git
-cd ~/git && git clone (https://github.com/Aneifer/dotfiles.git)
+cd ~/git && git clone https://github.com/Aneifer/dotfiles.git
 cd dotfiles
 make
 ```
